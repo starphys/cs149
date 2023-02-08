@@ -1,0 +1,1000 @@
+ 1015  python3 create_db.py
+ 1016  python3 run.py
+ 1017  python3 create_db.py 
+ 1018  python3 run.py 
+ 1019  git log
+ 1020  python3 run.py 
+ 1021  git log
+ 1022  python3 run.py 
+ 1023  git status
+ 1024  git log
+ 1025  python3 create_db.py 
+ 1026  python3 run.py 
+ 1027  git status
+ 1028  git log
+ 1029  python3 run.py 
+ 1030  git status
+ 1031  git branch
+ 1032  git checkout master
+ 1033  git pull
+ 1034  git branch -D unit-testing 
+ 1035  git checkout -b "unit-testing"
+ 1036  git checkout auction-times 
+ 1037  cd Documents/ebay_clone/
+ 1038  ls
+ 1039  git status
+ 1040  git checkout master
+ 1041  git pull
+ 1042  git status
+ 1043  git log
+ 1044  git branch
+ 1045  git checkout -b "listing-page"
+ 1046  code .
+ 1047  code ../131_sandbox/
+ 1048  cd Documents/
+ 1049  ls
+ 1050  cd ebay_clone/
+ 1051  git status
+ 1052  git branch
+ 1053  git checkout master
+ 1054  git branch -a
+ 1055  git switch addtocart
+ 1056  git fetch
+ 1057  git switch addtocart
+ 1058  git status
+ 1059  git log
+ 1060  code .
+ 1061  git log
+ 1062  python3 run.py
+ 1063  python3 create_db.py 
+ 1064  python3 run.py 
+ 1065  git checkout -b bug-fixes
+ 1066  python3 run.py 
+ 1067  git checkout addtocart 
+ 1068  git pull
+ 1069  python3 run.py 
+ 1070  git checkout bug-fixes 
+ 1071  git status
+ 1072  git log
+ 1073  python3 run.py 
+ 1074  git status
+ 1075  git checkout master
+ 1076  git pull
+ 1077  /bin/python3 -m pip install -U autopep8
+ 1078  ls -a
+ 1079  nano .tmp
+ 1080  fg
+ 1081  code .tmp
+ 1082  cd Documents/ebay_clone/
+ 1083  ls
+ 1084  git status
+ 1085  git branch
+ 1086  git checkout master 
+ 1087  git pull
+ 1088  git status
+ 1089  git branch
+ 1090  code .
+ 1091  cd ../131_sandbox/
+ 1092  code .
+ 1093  cd ..
+ 1094  ls
+ 1095  pip install mkdocs
+ 1096  mkdocs new freebay
+ 1097  ls
+ 1098  cd freebay/
+ 1099  ls
+ 1100  mkdocs serve
+ 1101  code .
+ 1102  mkdocs serve
+ 1103  ls
+ 1104  cd ..
+ 1105  ls
+ 1106  mv freebay/ ebay_clone/freebay_docs
+ 1107  cd ebay_clone/
+ 1108  ls
+ 1109  git status
+ 1110  git checkout -b "mkdocs-setup"
+ 1111  git status
+ 1112  git checkout master 
+ 1113  git pull
+ 1114  mkdocs gh-deploy
+ 1115  git checkout -b "mkdocs-setup"
+ 1116  git checkout mkdocs-setup 
+ 1117  git checkout master
+ 1118  git pull
+ 1119  git log
+ 1120  git reset --soft HEAD~3
+ 1121  git commit --edit
+ 1122  git log
+ 1123  git push
+ 1124  git branch
+ 1125  git pull
+ 1126  git status
+ 1127  mkdocs gh-deploy
+ 1128  git checkout -b "buying-listings"
+ 1129  /bin/python3
+ 1130  python3 create_db.py 
+ 1131  python3 run.py 
+ 1132  python3 create_db.py 
+ 1133  python3 run.py 
+ 1134  git branch
+ 1135  python3 run.py 
+ 1136  git checkout master
+ 1137  git pull
+ 1138  git checkout -b "bootstrap-everywhere"
+ 1139  python3 run.py
+ 1140  git branch
+ 1141  git log
+ 1142  git status
+ 1143  git checkout master
+ 1144  git pull
+ 1145  git status
+ 1146  python3 run.py
+ 1147  git status
+ 1148  git checkout -b "cart-hotfixes"
+ 1149  python3 run.py
+ 1150  git branch
+ 1151  git checkout master
+ 1152  git pull
+ 1153  git status
+ 1154  git branch
+ 1155  git checkout -b "bidding"
+ 1156  python3 run.py 
+ 1157  python3 create_db.py
+ 1158  python3 run.py 
+ 1159  git status
+ 1160  git pull
+ 1161  python3 run.py 
+ 1162  cd Documents/ebay_clone/
+ 1163  ls
+ 1164  git branch
+ 1165  git pull
+ 1166  code .
+ 1167  git branch
+ 1168  code .
+ 1169  code ../131_sandbox/
+ 1170  python3 run.py 
+ 1171  git branch
+ 1172  cd Documents/ebay_clone/
+ 1173  git branch
+ 1174  git pull
+ 1175  code .
+ 1176  git fetch origin
+ 1177  git reset --hard origin/bidding 
+ 1178  git log
+ 1179  git checkout master 
+ 1180  git pull
+ 1181  git status
+ 1182  git log
+ 1183  git branch
+ 1184  git branch -D addtocart
+ 1185  git branch -D basic-db
+ 1186  git branch -D bidding
+ 1187  git branch -D bootstrap-everywhere 
+ 1188  git branch -D bug-fixes 
+ 1189  git branch -D buying-listings 
+ 1190  git branch -D cart-hotfixes 
+ 1191  git branch -D listing-page 
+ 1192  git branch -D mkdocs-setup 
+ 1193  git status
+ 1194  git branch
+ 1195  git branch mkdocs-updates
+ 1196  git checkout mkdocs-
+ 1197  git checkout mkdocs-updates 
+ 1198  git branch -a
+ 1199  mkdocs serve
+ 1200  git branch
+ 1201  git checkout master
+ 1202  git checkout -b "login-newlisting-fixes"
+ 1203  python3 create_db.py 
+ 1204  python3 run.py 
+ 1205  git status
+ 1206  git log
+ 1207  git branch
+ 1208  git checkout inline-documentation 
+ 1209  git status
+ 1210  python3 run.py 
+ 1211  git checkout master 
+ 1212  git pull
+ 1213  git checkout -b "congrats-winner"
+ 1214  python3 run.py 
+ 1215  ls
+ 1216  cd Documents/ebay_clone/
+ 1217  ls
+ 1218  git pull
+ 1219  git branch
+ 1220  git pull
+ 1221  git status
+ 1222  git log
+ 1223  git checkout master
+ 1224  git pull
+ 1225  git branch -D mkdocs-updates 
+ 1226  git status
+ 1227  git branch
+ 1228  git checkout -b "inline-documentation"
+ 1229  code .
+ 1230  git branch
+ 1231  git checkout master
+ 1232  git pull
+ 1233  git checkout -b "large-file-fix"
+ 1234  code .
+ 1235  git checkout -b "docs-updates"
+ 1236  mkdocs serve
+ 1237  git branch
+ 1238  python3 create_db.py 
+ 1239  python3 run.py 
+ 1240  pip check
+ 1241  mkdocs serve
+ 1242  git branch
+ 1243  git pull
+ 1244  cd Documents/ebay_clone/
+ 1245  git branch
+ 1246  git status
+ 1247  git checkout master
+ 1248  git pull
+ 1249  git log
+ 1250  git pull
+ 1251  code .
+ 1252  git checkout gh-pages
+ 1253  git pull
+ 1254  git pull origin gh-pages
+ 1255  git log
+ 1256  git checkout master
+ 1257  mkdocs gh-deploy
+ 1258  git checkout master
+ 1259  git pull
+ 1260  mkdocs gh-deploy
+ 1261  git checkout -b "typo-correction"
+ 1262  git checkout master
+ 1263  git pull
+ 1264  mkdocs gh-deploy
+ 1265  cat .tmp 
+ 1266  cd Documents/ebay_clone/
+ 1267  git branch
+ 1268  git pull
+ 1269  git checkout -b "cathy_branch"
+ 1270  git pull origin/cathy_branch
+ 1271  git pull origin cathy_branch
+ 1272  code .
+ 1273  git pull
+ 1274  python3 run.py 
+ 1275  python3 create_db.py 
+ 1276  python3 run.py 
+ 1277  bg
+ 1278  git checkout master
+ 1279  git pull
+ 1280  python3 run.py 
+ 1281  bg
+ 1282  jobs
+ 1283  kill python3 run.py
+ 1284  kill 1
+ 1285  kill jobs
+ 1286  jobs | kill
+ 1287  jobs
+ 1288  kill %1
+ 1289  python3 run.py 
+ 1290  ls
+ 1291  cd Documents/ebay_clone/
+ 1292  git branch
+ 1293  git pull
+ 1294  git checkout master
+ 1295  git checkout -b "unit-tests"
+ 1296  pip install pytest
+ 1297  pip install coverage
+ 1298  python3 run.py 
+ 1299  git log
+ 1300  git reset --hard origin/master
+ 1301  git status
+ 1302  git pull
+ 1303  python3 create_db.py 
+ 1304  python3 run.py 
+ 1305  python3 create_db.py 
+ 1306  python3 run.py 
+ 1307  python3 create_db.py 
+ 1308  python3 run.py 
+ 1309  python3 create_db.py 
+ 1310  python3 run.py 
+ 1311  python3 create_db.py 
+ 1312  python3 run.py 
+ 1313  python3 create_db.py 
+ 1314  python3 run.py 
+ 1315  python3 create_db.py 
+ 1316  python3 run.py 
+ 1317  python3 create_db.py 
+ 1318  python3 run.py 
+ 1319  cd Documents/ebay_clone/
+ 1320  ls
+ 1321  git branch
+ 1322  git checkout master
+ 1323  git pull
+ 1324  git checkout unit-tests 
+ 1325  git rebase origin master
+ 1326  git rebase origin/master
+ 1327  git log
+ 1328  git branch
+ 1329  git checkout unit-tests 
+ 1330  git branch
+ 1331  git rebase origin/master
+ 1332  git log
+ 1333  code .
+ 1334  virtualenv venv
+ 1335  venv
+ 1336  virtualenv
+ 1337  sudo pip3 install virtualenv
+ 1338  virtualenv venv
+ 1339  venv/bin/activate
+ 1340  sudo venv/bin/activate
+ 1341  sudo venv/bin/activate .
+ 1342  venv/bin/activate .
+ 1343  pip freeze > requirements.txt
+ 1344  cat requirements.
+ 1345  cat requirements.txt 
+ 1346  rm requirements.txt 
+ 1347  ls
+ 1348  ls venv
+ 1349  ls venv/bin/
+ 1350  venv/bin/activate
+ 1351  sude venv/bin/activate
+ 1352  sudo venv/bin/activate
+ 1353  ls
+ 1354  sudo rm -rf venv
+ 1355  python -m venv venv
+ 1356  python3 -m venv venv
+ 1357  apt install python3.8-venv
+ 1358  sudo apt install python3.8-venv
+ 1359  python3 -m venv venv
+ 1360  source venv/bin/activate
+ 1361  python3 run.py 
+ 1362  pip install flask
+ 1363  python3 run.py 
+ 1364  pip install flask_login
+ 1365  python3 run.py 
+ 1366  pip install flask_sqlalchemy
+ 1367  python3 run.py 
+ 1368  code .
+ 1369  pip install flask-wtf
+ 1370  python3 run.py 
+ 1371  git checkout -b "venv-heroku"
+ 1372  git status
+ 1373  pip freeze
+ 1374  pip freeze > requirements.txt
+ 1375  pip install requirements.txt
+ 1376  pip install -r requirements.txt 
+ 1377  deactivate
+ 1378  sudo curl https://cli-assets.heroku.com/install.sh | sh
+ 1379  heroku login
+ 1380  man git remote
+ 1381  heroku git:remote -a freebay
+ 1382  git status
+ 1383  git branch
+ 1384  git log
+ 1385  git branch -a
+ 1386  git checkout master 
+ 1387  git pull
+ 1388  git push heroku master
+ 1389  git push heroku venv-heroku 
+ 1390  git push heroku venv-heroku --buil
+ 1391  git push heroku master
+ 1392  heroku ps
+ 1393  heroku open
+ 1394  heroku logs
+ 1395  heroku stop
+ 1396  heroku ps:scale web=0
+ 1397  heroku local
+ 1398  heroku addons
+ 1399  git checkout -b "db-update-for-search"
+ 1400  code .
+ 1401  source /home/evanastle/Documents/ebay_clone/venv/bin/activate
+ 1402  python3 create_db.py 
+ 1403  python3 run.py
+ 1404  fg %1
+ 1405  python3 run.py
+ 1406  ls
+ 1407  cd Documents/ebay_clone/
+ 1408  ls
+ 1409  git branch
+ 1410  git checkout master
+ 1411  git pull
+ 1412  git checkout -b "purchases-on-profile"
+ 1413  code.
+ 1414  code .
+ 1415  source /home/evanastle/Documents/ebay_clone/venv/bin/activate
+ 1416  cd Documents/ebay_clone/
+ 1417  git branch
+ 1418  git checkout master
+ 1419  git pull
+ 1420  git checkout -b "purchase-format"
+ 1421  code .
+ 1422  venv
+ 1423  venv activate
+ 1424  ls
+ 1425  source venv/bin/activate
+ 1426  source /home/evanastle/Documents/ebay_clone/venv/bin/activate
+ 1427  python3 run.py 
+ 1428  pip requirements.txt 
+ 1429  pip install  requirements.txt 
+ 1430  pip install < requirements.txt 
+ 1431  pip -r requirements.txt 
+ 1432  pip install -r requirements.txt 
+ 1433  python3 run.py 
+ 1434  git rebase origin/master
+ 1435  python3 run.py 
+ 1436  pip install -r requirements.txt 
+ 1437  git reset --hard origin/searchitems 
+ 1438  pip install -r requirements.txt 
+ 1439  pip list
+ 1440  pip install flask-msearch
+ 1441  pip list
+ 1442  pip install whoosh blinker
+ 1443  pip list
+ 1444  git reset --hard origin/searchitems 
+ 1445  python3 run.py 
+ 1446  git reset --hard origin/searchitems 
+ 1447  python3 run.py 
+ 1448  pip install -r requirements.txt 
+ 1449  git reset --hard origin/searchitems 
+ 1450  cd Documents/ebay_clone/
+ 1451  git branch
+ 1452  git status
+ 1453  git checkout master
+ 1454  git pull
+ 1455  git checkout searchitems 
+ 1456  git branch
+ 1457  git pull
+ 1458  code .
+ 1459  source venv/bin/activate
+ 1460  code .
+ 1461  ls
+ 1462  ls venv/
+ 1463  ls venv/bin/
+ 1464  deactivate
+ 1465  source venv/bin/activate
+ 1466  deactivate
+ 1467  nano ../requirements-update.txt
+ 1468  git checkout master
+ 1469  cd Documents/ebay_clone/
+ 1470  git branch
+ 1471  source venv/bin/activate
+ 1472  python3 run.py 
+ 1473  deactivate
+ 1474  rm -rf venv/
+ 1475  source venv/bin/activate
+ 1476  virtualenv venv
+ 1477  source venv/bin/activate
+ 1478  python3 run.py 
+ 1479  pip install -r requirements.txt 
+ 1480  which python
+ 1481  which pip
+ 1482  which python3
+ 1483  which pip3
+ 1484  pip3 install -r requirements.txt
+ 1485  python --version
+ 1486  pip --version
+ 1487  pip list
+ 1488  cat requirements.txt
+ 1489  cat ../requirements-update.txt 
+ 1490  code .
+ 1491  pip3 install -r requirements.txt
+ 1492  python3 run.py
+ 1493  deactivate
+ 1494  rm -rf venv/
+ 1495  virtualenv venv
+ 1496  source venv/bin/activate
+ 1497  python3 run.py
+ 1498  pip install -r requirements.txt 
+ 1499  python3 run.py
+ 1500  deactivate
+ 1501  git branch
+ 1502  git checkout master
+ 1503  git pull
+ 1504  rm -rf venv
+ 1505  virtualenv venv
+ 1506  source venv/bin/activate
+ 1507  python3 run.py
+ 1508  pip install -r requirements.txt 
+ 1509  python3 run.py 
+ 1510  source venv/bin/activate
+ 1511  python3 run.py
+ 1512  python3 run.py 
+ 1513  git pull
+ 1514  cd Documents/ebay_clone/
+ 1515  git branch
+ 1516  git pull
+ 1517  code .
+ 1518  mkdocs serve
+ 1519  git pull
+ 1520  mkdocs gh-deploy
+ 1521  source venv/bin/activate
+ 1522  git pull
+ 1523  git branch
+ 1524  cat .tmp 
+ 1525  source venv/bin/activate
+ 1526  python3 run.py 
+ 1527  deactivate
+ 1528  cd Documents/ebay_clone/
+ 1529  git branch
+ 1530  git checkout cathy_branch 
+ 1531  git pull
+ 1532  git checkout master
+ 1533  git branch -d cathy_branch 
+ 1534  git branch -D cathy_branch 
+ 1535  git checkout cathy_testing
+ 1536  git pull
+ 1537  source venv/bin/activate
+ 1538  code .
+ 1539  cd Documents/
+ 1540  ls
+ 1541  cd SCE/
+ 1542  ls
+ 1543  git clone https://github.com/SCE-Development/Quasar.git
+ 1544  ls
+ 1545  docker-compose up
+ 1546  sudo docker-compose up
+ 1547  cd Documents/SCE/Quasar/
+ 1548  git branch
+ 1549  git branch -a
+ 1550  git checkout print-dashboard
+ 1551  git branch
+ 1552  git checkout dev
+ 1553  git checkout -b "metrics-server"
+ 1554  code .
+ 1555  docker-compose up --no-deps --build influxDB printing_scraper
+ 1556  sudo docker-compose up --no-deps --build influxDB printing_scraper
+ 1557  cd printer/
+ 1558  cd ..
+ 1559  sudo docker-compose up --no-deps --build influxDB printing_scraper
+ 1560  docker exec -it d1ca866e8979 influx -database quasar_data  -precision rfc3339 
+ 1561  sudo docker exec -it d1ca866e8979 influx -database quasar_data  -precision rfc3339 
+ 1562  sudo docker exec -it 9f0ebae41279  influx -database quasar_data  -precision rfc3339 
+ 1563  sudo docker exec -it 9f0ebae41279  influx -database quasar_data  -precision rfc3339
+ 1564  docker ps
+ 1565  sudo docker ps
+ 1566  sudo docker exec -it 9f0ebae41279  influx -database quasar_data  -precision rfc3339 
+ 1567  sudo docker-compose up --no-deps --build influxDB printing_scraper grafana nginx prometheus
+ 1568  sudo docker-compose up --no-deps --build influxDB printing_scraper quasar_grafana nginx quasar_prometheus quasar_prometheus
+ 1569  cd Documents/SCE/Quasar/
+ 1570  git branch
+ 1571  git pull
+ 1572  code .
+ 1573  ls
+ 1574  cd Documents/
+ 1575  ls
+ 1576  mkdir IBM
+ 1577  ls
+ 1578  cd IBM
+ 1579  npx create-react-app food-jobs
+ 1580  ls
+ 1581  cd food-jobs
+ 1582  npm start
+ 1583  code .
+ 1584  npm start
+ 1585  cd ../..
+ 1586  ls
+ 1587  cd sandbox/synthesizer/
+ 1588  code .
+ 1589  npm start
+ 1590  npm install --save google-map-react
+ 1591  npm start
+ 1592  npm install
+ 1593  npm start
+ 1594  npm install
+ 1595  npm start
+ 1596  npm uninstall google-map-api
+ 1597  npm start
+ 1598  npm install --save @react-google-maps/api
+ 1599  npm start
+ 1600  ls
+ 1601  cd Documents/IBM/food-jobs/
+ 1602  git status
+ 1603  git pull
+ 1604  git checkout -b "add-maps"
+ 1605  npm install @googlemaps/react-wrapper
+ 1606  code .
+ 1607  code ../../sandbox/synthesizer/
+ 1608  git branch
+ 1609  git status
+ 1610  git checkout master
+ 1611  git checkout add-maps
+ 1612  git checkout master
+ 1613  git reset --hard master 
+ 1614  git status
+ 1615  git branch
+ 1616  git branch -d add-maps 
+ 1617  git checkout -b "add-map"
+ 1618  git branch
+ 1619  code .
+ 1620  npm start
+ 1621  cd Documents/IBM/food-jobs/
+ 1622  code .
+ 1623  git branch
+ 1624  npm start
+ 1625  ps 1
+ 1626  fg
+ 1627  npm start
+ 1628  git log
+ 1629  git checkout master
+ 1630  git branch -d add-markers 
+ 1631  cd Documents/IBM/food-jobs/
+ 1632  git branch
+ 1633  code .
+ 1634  git checkout master 
+ 1635  git pull
+ 1636  git status
+ 1637  git checkout -b "visual-updates-map"
+ 1638  code .
+ 1639  npm start
+ 1640  cd Documents/IBM/food-jobs/
+ 1641  git status
+ 1642  git branch
+ 1643  git pull
+ 1644  git checkout -b "add-markers"
+ 1645  code .
+ 1646  git pull
+ 1647  git checkout -b "add-transit-layer"
+ 1648  npm start
+ 1649  cd Documents/IBM/food-jobs/
+ 1650  code .
+ 1651  npm start
+ 1652  cd Documents/IBM/food-jobs/
+ 1653  git status
+ 1654  code .
+ 1655  git checkout master
+ 1656  git pull
+ 1657  git branch -a
+ 1658  git checkout more-listings-data 
+ 1659  npm start
+ 1660  cd Documents/IBM/food-jobs/
+ 1661  git status
+ 1662  git branch
+ 1663  git checkout master
+ 1664  git pull
+ 1665  git checkout button-design 
+ 1666  code .
+ 1667  npm start
+ 1668  code /home/evanastle/Documents/IBM/food-jobs/public/index.html
+ 1669  npm cloudant-util.js
+ 1670  npm run cloudant-util.js
+ 1671  npm run ./cloudant-util.js
+ 1672  node cloudant-util.js
+ 1673  node src/cloudant-util.js
+ 1674  node /home/evanastle/Documents/IBM/food-jobs/src/cloudant-util.js
+ 1675  npm install @ibm-cloud/cloudant
+ 1676  node /home/evanastle/Documents/IBM/food-jobs/src/cloudant-util.js
+ 1677  npm install ibm-cloud-sdk-core
+ 1678  node /home/evanastle/Documents/IBM/food-jobs/src/cloudant-util.js
+ 1679  npm start
+ 1680  node src/cloudant-util.js 
+ 1681  npm start
+ 1682  node src/cloudant-util.js 
+ 1683  npm start
+ 1684  node src/server.js
+ 1685  node src/cloudant-util.js 
+ 1686  node src/server.js
+ 1687  node src/cloudant-util.js 
+ 1688  node src/server.js
+ 1689  cd Documents/IBM/food-jobs/
+ 1690  git status
+ 1691  git branch
+ 1692  git checkout master
+ 1693  git pull
+ 1694  git checkout -b "cloudant-sandbox"
+ 1695  code .
+ 1696  git status
+ 1697  git log
+ 1698  git checkout master
+ 1699  git pull
+ 1700  git checkout -b "cosmetic-updates"
+ 1701  code .
+ 1702  node src/cloudant-util.js 
+ 1703  node src/server.js 
+ 1704  npm start
+ 1705  code /home/evanastle/Documents/IBM/food-jobs/public/index.html
+ 1706  npm start
+ 1707  npm run
+ 1708  npm start
+ 1709  node src/server.js 
+ 1710  cd Documents/IBM/food-jobs/
+ 1711  git status
+ 1712  git branch
+ 1713  git pull
+ 1714  code .
+ 1715  cd Documents/IBM/food-jobs/
+ 1716  git branc
+ 1717  git branch
+ 1718  git status
+ 1719  git checkout master
+ 1720  git pull
+ 1721  git checkout color-and-font-changes 
+ 1722  code .
+ 1723  git pull
+ 1724  git branch
+ 1725  git checkout master
+ 1726  git pull
+ 1727  npm start
+ 1728  npm start
+ 1729  node src/server.js 
+ 1730  npm start
+ 1731  npm install react-router-dom
+ 1732  npm start
+ 1733  cd Documents/IBM/food-jobs/
+ 1734  git branch
+ 1735  git pull
+ 1736  git checkout frontend-design 
+ 1737  code .
+ 1738  git checkout color-and-font-changes 
+ 1739  git status
+ 1740  git log
+ 1741  git rebase master
+ 1742  git status
+ 1743  git rebase --continue
+ 1744  git status
+ 1745  git log
+ 1746  cd Documents/IBM/food-jobs/
+ 1747  git branch
+ 1748  git checkout master
+ 1749  code .
+ 1750  npm start
+ 1751  npm run build
+ 1752  node src/server.js 
+ 1753  cd Documents/
+ 1754  ls
+ 1755  mkdir CMPE165
+ 1756  mkdir spartanstay
+ 1757  code .
+ 1758  cd CMPE165
+ 1759  mkdir spartanstay
+ 1760  cd ..
+ 1761  rm spartanstay/
+ 1762  rmdir spartanstay/
+ 1763  cd CMPE165/spartanstay/
+ 1764  code .
+ 1765  cd Documents/IBM/food-jobs/
+ 1766  ls
+ 1767  code .
+ 1768  man man
+ 1769  man echo
+ 1770  echo Hello
+ 1771  echo Hello\n
+ 1772  echo Hello \\n
+ 1773  echo Hello World > helloworld.txt
+ 1774  cat helloworld.txt
+ 1775  nano helloworld.txt 
+ 1776  head helloworld.txt 
+ 1777  tail helloworld.txt 
+ 1778  echo 1 >> lines.txt
+ 1779  echo 2 >> lines.txt
+ 1780  nano lines.txt 
+ 1781  echo 3 > lines.txt 
+ 1782  nano lines.txt 
+ 1783  helloworld.txt >> lines.txt
+ 1784  cat helloworld.txt >> lines.txt 
+ 1785  nano lines.txt 
+ 1786  cat lines.txt >> lines.txt 
+ 1787  cat lines.txt >> helloworld.txt 
+ 1788  nano helloworld.txt 
+ 1789  nano lines.txt 
+ 1790  cat lines.txt 
+ 1791  tail lines.txt 
+ 1792  head lines.txt
+ 1793  cp lines.txt lines2.txt
+ 1794  cat lines2.txt 
+ 1795  ls
+ 1796  echo I'm a file > Documents/file.txt
+ 1797  q
+ 1798  cat I'm a file > Documents/file.txt
+ 1799  q
+ 1800  cat I'm a file > Documents/file.txt
+ 1801  cat I'm a file > ./Documents/file.txt
+ 1802  cd Documents/
+ 1803  nano file.txt
+ 1804  ls
+ 1805  cp file.txt ../file.txt
+ 1806  cd ..
+ 1807  ls
+ 1808  cat file.txt
+ 1809  rm file.txt
+ 1810  cd Documents/
+ 1811  ls
+ 1812  mv file.txt ../file.txt
+ 1813  ls
+ 1814  ls ..
+ 1815  mv ../file.txt File.txt
+ 1816  ls ..
+ 1817  ls
+ 1818  mv File.txt itisafile.txt
+ 1819  ls
+ 1820  cp itisafile.txt file.txt
+ 1821  ls
+ 1822  cat file.txt 
+ 1823  cat itisafile.txt 
+ 1824  mkdir bad-repo
+ 1825  cd bad-repo/
+ 1826  git init
+ 1827  git branch
+ 1828  git branch -a
+ 1829  nano one-file.txt
+ 1830  git status
+ 1831  git add .
+ 1832  git commit -m "first commit"
+ 1833  git branch
+ 1834  git status
+ 1835  git log
+ 1836  git branch "second-branch"
+ 1837  git branch
+ 1838  git branch -a
+ 1839  git branch "string"
+ 1840  git checkout -b "string2"
+ 1841  branch
+ 1842  git branch
+ 1843  git checkout master
+ 1844  git branch -D string2
+ 1845  git branch "string2"
+ 1846  git checkout string2
+ 1847  git checkout master 
+ 1848  git log
+ 1849  git checkout -b "third-branch"
+ 1850  git branch
+ 1851  git log
+ 1852  git checkout master
+ 1853  git log
+ 1854  ls
+ 1855  nano one-file.txt 
+ 1856  git commit -m "second commit"
+ 1857  git add .
+ 1858  git commit -m "second commit"
+ 1859  git log
+ 1860  git checkout second-branch 
+ 1861  git log
+ 1862  nano one-file.txt 
+ 1863  ls
+ 1864  git add .
+ 1865  git commit -m "second commit (but bad)"
+ 1866  git log
+ 1867  git checkout master 
+ 1868  git merge second-branch 
+ 1869  git mergetool
+ 1870  git mergetool --tool-help
+ 1871  git config merge.tool vimdiff
+ 1872  git mergetool
+ 1873  apt install vim
+ 1874  sudo apt install vim
+ 1875  git mergetool
+ 1876  git status
+ 1877  nano one-file.txt
+ 1878  git mergetool
+ 1879  git status
+ 1880  git merge --abort
+ 1881  git status
+ 1882  ls
+ 1883  git rm one-file_*
+ 1884  git status
+ 1885  git rm one-file_*.txt
+ 1886  find *.md +365 -delete
+ 1887  find ./*.txt +365 -delete
+ 1888  ls
+ 1889  ls -a
+ 1890  cd ..
+ 1891  ls
+ 1892  cd bad-repo/
+ 1893  man find
+ 1894  pip install flask-sqlalchemy flask flask-wtf wtforms flask-migrate flask-login wekzeug
+ 1895  pip install werkzeug
+ 1896  python3 run.py
+ 1897  pip install flask_migrate
+ 1898  python3 run.py
+ 1899  ls
+ 1900  cd Documents/
+ 1901  ls
+ 1902  mkdir CMPE131
+ 1903  cd CMPE1
+ 1904  cd CMPE131/
+ 1905  ls ..
+ 1906  git clone https://github.com/isabel8190/cmpe131-team-5.git
+ 1907  code cmpe131-team-5/
+ 1908  cd ..
+ 1909  ls
+ 1910  cd var/
+ 1911  ls
+ 1912  cd crash/
+ 1913  ls
+ 1914  sudo rm 
+ 1915  sudo rm _usr_bin_ibus-daemon.125.crash 
+ 1916  ls
+ 1917  cd ~
+ 1918  ls
+ 1919  cd Documents/
+ 1920  pwd
+ 1921  cd ~
+ 1922  cd Desktop/
+ 1923  ls -latr
+ 1924  mkdir cs149
+ 1925  cd cs149/
+ 1926  git init
+ 1927  git remote add origin https://github.com/yourlogin/cs149.git
+ 1928  mkdir WS1
+ 1929  cd WS1
+ 1930  git status
+ 1931  git add .
+ 1932  ls
+ 1933  git status
+ 1934  wget -O out.pdf https://tinyurl.com/yy94jltt
+ 1935  ls -latr
+ 1936  out.pdf
+ 1937  this is a graduation path for a cs major... I am a se major.
+ 1938  history > cmds.log
+ 1939  git status
+ 1940  git add cmds.log
+ 1941  git status
+ 1942  git commit -m "First commit"
+ 1943  git branch
+ 1944  git push -u origin main
+ 1945  git push -u origin master
+ 1946  code .
+ 1947  code ..
+ 1948  git log
+ 1949  git branch -M main
+ 1950  git branch
+ 1951  git remote
+ 1952  git remote -rm out.pdf
+ 1953  git remote -rm origin
+ 1954  git remote rm origin
+ 1955  git remote
+ 1956  git remote add origin https://github.com/starphys/cs149.git
+ 1957  gcc helloworld.c -o helloworld
+ 1958  ls
+ 1959  ./helloworld 
+ 1960  gcc -Wall helloworld.c -o helloworld
+ 1961  ./helloworld 
+ 1962  gcc -Wall noparking.c -o noparking
+ 1963  ./noparking 
+ 1964  gcc -Wall noparking.c -o noparking
+ 1965  ./noparking 
+ 1966  gcc -Wall rightarrow.c -o rightarrow
+ 1967  ./rightarrow 
+ 1968  ./rightarrow 0
+ 1969  ./rightarrow 0 1
+ 1970  ./rightarrow 0 1 2
+ 1971  gcc -Wall rightarrow.c -o rightarrow
+ 1972  ./rightarrow 0 1 2
+ 1973  ./rightarrow 0 1
+ 1974  gcc -Wall rightarrow.c -o rightarrow
+ 1975  ./rightarrow 0 1
+ 1976  gcc -Wall rightarrow.c -o rightarrow
+ 1977  ./rightarrow 0 1
+ 1978  ./rightarrow a b
+ 1979  ./rightarrow ./rightarrow b
+ 1980  gcc -Wall rightarrow.c -o rightarrow
+ 1981  ./rightarrow 0 1
+ 1982  gcc -Wall 1_18_helloworld2.c -o helloworld2
+ 1983  ls
+ 1984  gcc -Wall 1_18_helloworld2.c -o helloworld2
+ 1985  ./helloworld2
+ 1986  gcc -Wall 1_18_helloworld2.c -o helloworld2
+ 1987  ./helloworld2
+ 1988  gcc -Wall 1_19_inputoutput.c -o inputoutput
+ 1989  ./inputoutput 
+ 1990  gcc -Wall 1_19_inputoutput.c -o inputoutput
+ 1991  ./inputoutput 
+ 1992  gcc -Wall 1_20_asciiart.c -o asciiart
+ 1993  ./asciiart 
+ 1994  cd ../..
+ 1995  ls
+ 1996  git clone https://github.com/starphys/cs149.git cs149_evanastle
+ 1997  ls cs149_evanastle/
+ 1998  ls cs149_evanastle/WS1/
+ 1999  ls
+ 2000  rm -rf cs149_evanastle/
+ 2001  date
+ 2002  pwd
+ 2003  cd ~
+ 2004  cd Desktop/
+ 2005  ls -latr
+ 2006  cd cs149/
+ 2007  mkdir WS2
+ 2008  cd WS2/
+ 2009  ls -latr
+ 2010  echo $?
+ 2011  man ps
+ 2012  ps aux
+ 2013  top
+ 2014  history > worksheet2.log
