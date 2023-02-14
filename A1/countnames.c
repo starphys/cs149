@@ -2,7 +2,7 @@
  * Description: This module counts the recurrences of unique strings in an input file.
  * Author names: Evan Astle
  * Author emails: david.astle@sjsu.edu
- * Last modified date: 11/07/2023
+ * Last modified date: 11/13/2023
  * Creation date: 11/07/2023
  **/
 
@@ -55,7 +55,7 @@ int main( int argc, char *argv[] ) {
         }
 
         // Check blank lines
-        if(input[0] == '\n') {
+        if(input[0] == '\n' || (input[0] == ' ' && input[1] == '\n')) {
             fprintf(stderr, "Warning - Line %d is empty.\n", i);
             continue;
         }
