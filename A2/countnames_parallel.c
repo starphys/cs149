@@ -2,7 +2,7 @@
  * Description: This module counts the recurrences of unique strings in any number of files concurrently.
  * Author names: Evan Astle
  * Author emails: david.astle@sjsu.edu
- * Last modified date: 03/03/2023
+ * Last modified date: 03/04/2023
  * Creation date: 02/14/2023
  **/
 
@@ -25,7 +25,7 @@ int main( int argc, char *argv[] ) {
         return 0;
     }
 
-    // Create track children and pipes
+    // Create and track children and pipes
     int children[argc-1];
     memset(children, 0, sizeof(children));
     int fd[argc-1][2];
@@ -79,8 +79,6 @@ int main( int argc, char *argv[] ) {
             return 1;
         }
 
-
-
         // Track which line we are on
         int i = 0;
         char input[MAX_LENGTH];
@@ -100,7 +98,7 @@ int main( int argc, char *argv[] ) {
 
             // Check blank lines
             if(input[0] == '\n' || (input[0] == ' ' && (input[1] == '\n' || input[1] == '\0'))) {
-                fprintf(stderr, "Warning - Line %d is empty.\n", i);
+                fprintf(stderr, "Warning - file %s line %d is empty.\n", argv[argIndex], i);
                 continue;
             }
 
@@ -128,7 +126,7 @@ int main( int argc, char *argv[] ) {
             }
         }
         
-        // Something went wrong
+        // Something went wrong while reading
         if(ferror(inFile))
         {
             return 1;
@@ -153,6 +151,7 @@ int main( int argc, char *argv[] ) {
             
         }
 
+        // This thread is done, sending EOF to pipe will make parsing easier.
         if(close(fd[argIndex-1][1]) < 0) {
             fprintf(stderr,"%d\n", __LINE__);
             return 1;
@@ -166,12 +165,14 @@ int main( int argc, char *argv[] ) {
 
         // Process responses from children.
         while(1) {
+
+            // Wait on an arbitrary number of children, process each one when it's ready.
             returned = wait(&status);
             if( returned <= 0) {
                 break;
             }
 
-            // If one thread failed, we consider them all failures
+            // If one child failed, we consider them all failures
             if(!WIFEXITED(status)) {
                 while(wait(NULL) > 0) {}
                 return 1;
