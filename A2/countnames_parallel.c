@@ -172,12 +172,6 @@ int main( int argc, char *argv[] ) {
                 break;
             }
 
-            // If one child failed, we consider them all failures
-            if(!WIFEXITED(status)) {
-                while(wait(NULL) > 0) {}
-                return 1;
-            }
-
             // Figure out which child process this is
             int i = 0;
             for(; i < argc-1; ++i) {
@@ -188,6 +182,11 @@ int main( int argc, char *argv[] ) {
 
             // Read from pipe until empty
             while(1) {
+                // Do not process failed child
+                if(!WIFEXITED(status)) {
+                    break;
+                }
+                
                 int readBytes = read(fd[i][0], readName, MAX_LENGTH);
                 if (readBytes <= 0) {
                     break;
