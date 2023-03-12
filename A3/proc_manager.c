@@ -27,6 +27,9 @@ int main( int argc, char *argv[] ) {
     char commands[MAX_COMMANDS][MAX_LENGTH];
     memset(commands, 0, sizeof(commands));
     
+    // For managing files
+    char fileName[MAX_LENGTH];
+
     // Get commands from stdin
     for(; count < MAX_COMMANDS; ++count) {
         if( fgets(commands[count], MAX_LENGTH, stdin) == NULL) {
@@ -57,11 +60,12 @@ int main( int argc, char *argv[] ) {
     // Execute one command per child
     if(cpid == 0) {
         // Prepare log files
-        char fileName[MAX_LENGTH];
         sprintf(fileName, "%d.out", getpid());
         int fd_out = open(fileName, O_RDWR | O_CREAT | O_APPEND, 0777);
+        FILE* out = fopen(fileName, "a");
         sprintf(fileName, "%d.err", getpid());
         int fd_err = open(fileName, O_RDWR | O_CREAT | O_APPEND, 0777);
+        FILE* err = fopen(fileName, "a");
 
         if(dup2(fd_out, 1) != 1) {
             fprintf(stdout, "dup2 didn't work!");
@@ -69,7 +73,10 @@ int main( int argc, char *argv[] ) {
         if(dup2(fd_err, 2) != 2) {
             fprintf(stderr, "dup2 didn't work!");
         }
-        
+
+        fprintf(out, "Starting command %d: child %d pid of parent %d\n", i, getpid(), getppid());
+        fflush(out);
+
         // Begin processing commands
         char args[MAX_LENGTH][MAX_LENGTH];
         memset(args, 0, sizeof(args));
@@ -104,23 +111,31 @@ int main( int argc, char *argv[] ) {
         // Null terminate argument vector
         argsPtr[word] = NULL;
 
-        // DEBUG:
-        // fprintf(stdout, "Word count: %d\nExecuting: ", word);
-
-        // for(int n = 0; n < word; ++n) {
-        //     fprintf(stdout, "%s ", argsPtr[n]);
-        // }
-        fprintf(stdout, "\n");
-        fflush(stdout);
-
         execvp(args[0], argsPtr);
-        fprintf(stderr, "couldn't execute: %s", args[0]);
-        return 127;
+        fprintf(err, "Could not execute: %s\n", commands[i]);
+        return 2;
     }
 
     // Parent thread coordinates workers and stores their output.
     else {
-        while(wait(NULL) > 0) {}
+        int pid, status;
+        
+        while ((pid = wait(&status)) > 0) {
+            sprintf(fileName, "%d.out", pid);
+            FILE* fd_out = fopen(fileName, "a");
+            sprintf(fileName, "%d.err", pid);
+            FILE* fd_err = fopen(fileName, "a");
+
+            if (WIFEXITED(status)) {
+                fprintf(fd_err, "Exited with exitcode = %d\n", WEXITSTATUS(status));
+            } else if (WIFSIGNALED(status)) {
+                fprintf(fd_err, "Killed with signal %d\n", WTERMSIG(status));  
+            }
+
+            fprintf(fd_out,"Finished child %d pid of parent %d\n", pid, getpid());
+            fclose(fd_out);
+            fclose(fd_err);
+        }
     }
 
     return 0;
