@@ -6,12 +6,13 @@
  * Creation date: 03/11/2023
  **/
 
+#include <fcntl.h>
 #include <stdio.h>
-#include <stdbool.h>
 #include <string.h>
+#include <sys/stat.h>
 #include <sys/types.h>
-#include <unistd.h>
 #include <sys/wait.h>
+#include <unistd.h>
 
 
 #define MAX_COMMANDS 100
@@ -55,6 +56,21 @@ int main( int argc, char *argv[] ) {
 
     // Execute one command per child
     if(cpid == 0) {
+        // Prepare log files
+        char fileName[MAX_LENGTH];
+        sprintf(fileName, "%d.out", getpid());
+        int fd_out = open(fileName, O_RDWR | O_CREAT | O_APPEND, 0777);
+        sprintf(fileName, "%d.err", getpid());
+        int fd_err = open(fileName, O_RDWR | O_CREAT | O_APPEND, 0777);
+
+        if(dup2(fd_out, 1) != 1) {
+            fprintf(stdout, "dup2 didn't work!");
+        }
+        if(dup2(fd_err, 2) != 2) {
+            fprintf(stderr, "dup2 didn't work!");
+        }
+        
+        // Begin processing commands
         char args[MAX_LENGTH][MAX_LENGTH];
         memset(args, 0, sizeof(args));
         
