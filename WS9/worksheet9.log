@@ -1,0 +1,1000 @@
+ 1007  cd Documents/IBM/food-jobs/
+ 1008  git status
+ 1009  git pull
+ 1010  git checkout -b "add-maps"
+ 1011  npm install @googlemaps/react-wrapper
+ 1012  code .
+ 1013  code ../../sandbox/synthesizer/
+ 1014  git branch
+ 1015  git status
+ 1016  git checkout master
+ 1017  git checkout add-maps
+ 1018  git checkout master
+ 1019  git reset --hard master 
+ 1020  git status
+ 1021  git branch
+ 1022  git branch -d add-maps 
+ 1023  git checkout -b "add-map"
+ 1024  git branch
+ 1025  code .
+ 1026  npm start
+ 1027  cd Documents/IBM/food-jobs/
+ 1028  code .
+ 1029  git branch
+ 1030  npm start
+ 1031  ps 1
+ 1032  fg
+ 1033  npm start
+ 1034  git log
+ 1035  git checkout master
+ 1036  git branch -d add-markers 
+ 1037  cd Documents/IBM/food-jobs/
+ 1038  git branch
+ 1039  code .
+ 1040  git checkout master 
+ 1041  git pull
+ 1042  git status
+ 1043  git checkout -b "visual-updates-map"
+ 1044  code .
+ 1045  npm start
+ 1046  cd Documents/IBM/food-jobs/
+ 1047  git status
+ 1048  git branch
+ 1049  git pull
+ 1050  git checkout -b "add-markers"
+ 1051  code .
+ 1052  git pull
+ 1053  git checkout -b "add-transit-layer"
+ 1054  npm start
+ 1055  cd Documents/IBM/food-jobs/
+ 1056  code .
+ 1057  npm start
+ 1058  cd Documents/IBM/food-jobs/
+ 1059  git status
+ 1060  code .
+ 1061  git checkout master
+ 1062  git pull
+ 1063  git branch -a
+ 1064  git checkout more-listings-data 
+ 1065  npm start
+ 1066  cd Documents/IBM/food-jobs/
+ 1067  git status
+ 1068  git branch
+ 1069  git checkout master
+ 1070  git pull
+ 1071  git checkout button-design 
+ 1072  code .
+ 1073  npm start
+ 1074  code /home/evanastle/Documents/IBM/food-jobs/public/index.html
+ 1075  npm cloudant-util.js
+ 1076  npm run cloudant-util.js
+ 1077  npm run ./cloudant-util.js
+ 1078  node cloudant-util.js
+ 1079  node src/cloudant-util.js
+ 1080  node /home/evanastle/Documents/IBM/food-jobs/src/cloudant-util.js
+ 1081  npm install @ibm-cloud/cloudant
+ 1082  node /home/evanastle/Documents/IBM/food-jobs/src/cloudant-util.js
+ 1083  npm install ibm-cloud-sdk-core
+ 1084  node /home/evanastle/Documents/IBM/food-jobs/src/cloudant-util.js
+ 1085  npm start
+ 1086  node src/cloudant-util.js 
+ 1087  npm start
+ 1088  node src/cloudant-util.js 
+ 1089  npm start
+ 1090  node src/server.js
+ 1091  node src/cloudant-util.js 
+ 1092  node src/server.js
+ 1093  node src/cloudant-util.js 
+ 1094  node src/server.js
+ 1095  cd Documents/IBM/food-jobs/
+ 1096  git status
+ 1097  git branch
+ 1098  git checkout master
+ 1099  git pull
+ 1100  git checkout -b "cloudant-sandbox"
+ 1101  code .
+ 1102  git status
+ 1103  git log
+ 1104  git checkout master
+ 1105  git pull
+ 1106  git checkout -b "cosmetic-updates"
+ 1107  code .
+ 1108  node src/cloudant-util.js 
+ 1109  node src/server.js 
+ 1110  npm start
+ 1111  code /home/evanastle/Documents/IBM/food-jobs/public/index.html
+ 1112  npm start
+ 1113  npm run
+ 1114  npm start
+ 1115  node src/server.js 
+ 1116  cd Documents/IBM/food-jobs/
+ 1117  git status
+ 1118  git branch
+ 1119  git pull
+ 1120  code .
+ 1121  cd Documents/IBM/food-jobs/
+ 1122  git branc
+ 1123  git branch
+ 1124  git status
+ 1125  git checkout master
+ 1126  git pull
+ 1127  git checkout color-and-font-changes 
+ 1128  code .
+ 1129  git pull
+ 1130  git branch
+ 1131  git checkout master
+ 1132  git pull
+ 1133  npm start
+ 1134  npm start
+ 1135  node src/server.js 
+ 1136  npm start
+ 1137  npm install react-router-dom
+ 1138  npm start
+ 1139  cd Documents/IBM/food-jobs/
+ 1140  git branch
+ 1141  git pull
+ 1142  git checkout frontend-design 
+ 1143  code .
+ 1144  git checkout color-and-font-changes 
+ 1145  git status
+ 1146  git log
+ 1147  git rebase master
+ 1148  git status
+ 1149  git rebase --continue
+ 1150  git status
+ 1151  git log
+ 1152  cd Documents/IBM/food-jobs/
+ 1153  git branch
+ 1154  git checkout master
+ 1155  code .
+ 1156  npm start
+ 1157  npm run build
+ 1158  node src/server.js 
+ 1159  cd Documents/
+ 1160  ls
+ 1161  mkdir CMPE165
+ 1162  mkdir spartanstay
+ 1163  code .
+ 1164  cd CMPE165
+ 1165  mkdir spartanstay
+ 1166  cd ..
+ 1167  rm spartanstay/
+ 1168  rmdir spartanstay/
+ 1169  cd CMPE165/spartanstay/
+ 1170  code .
+ 1171  cd Documents/IBM/food-jobs/
+ 1172  ls
+ 1173  code .
+ 1174  man man
+ 1175  man echo
+ 1176  echo Hello
+ 1177  echo Hello\n
+ 1178  echo Hello \\n
+ 1179  echo Hello World > helloworld.txt
+ 1180  cat helloworld.txt
+ 1181  nano helloworld.txt 
+ 1182  head helloworld.txt 
+ 1183  tail helloworld.txt 
+ 1184  echo 1 >> lines.txt
+ 1185  echo 2 >> lines.txt
+ 1186  nano lines.txt 
+ 1187  echo 3 > lines.txt 
+ 1188  nano lines.txt 
+ 1189  helloworld.txt >> lines.txt
+ 1190  cat helloworld.txt >> lines.txt 
+ 1191  nano lines.txt 
+ 1192  cat lines.txt >> lines.txt 
+ 1193  cat lines.txt >> helloworld.txt 
+ 1194  nano helloworld.txt 
+ 1195  nano lines.txt 
+ 1196  cat lines.txt 
+ 1197  tail lines.txt 
+ 1198  head lines.txt
+ 1199  cp lines.txt lines2.txt
+ 1200  cat lines2.txt 
+ 1201  ls
+ 1202  echo I'm a file > Documents/file.txt
+ 1203  q
+ 1204  cat I'm a file > Documents/file.txt
+ 1205  q
+ 1206  cat I'm a file > Documents/file.txt
+ 1207  cat I'm a file > ./Documents/file.txt
+ 1208  cd Documents/
+ 1209  nano file.txt
+ 1210  ls
+ 1211  cp file.txt ../file.txt
+ 1212  cd ..
+ 1213  ls
+ 1214  cat file.txt
+ 1215  rm file.txt
+ 1216  cd Documents/
+ 1217  ls
+ 1218  mv file.txt ../file.txt
+ 1219  ls
+ 1220  ls ..
+ 1221  mv ../file.txt File.txt
+ 1222  ls ..
+ 1223  ls
+ 1224  mv File.txt itisafile.txt
+ 1225  ls
+ 1226  cp itisafile.txt file.txt
+ 1227  ls
+ 1228  cat file.txt 
+ 1229  cat itisafile.txt 
+ 1230  mkdir bad-repo
+ 1231  cd bad-repo/
+ 1232  git init
+ 1233  git branch
+ 1234  git branch -a
+ 1235  nano one-file.txt
+ 1236  git status
+ 1237  git add .
+ 1238  git commit -m "first commit"
+ 1239  git branch
+ 1240  git status
+ 1241  git log
+ 1242  git branch "second-branch"
+ 1243  git branch
+ 1244  git branch -a
+ 1245  git branch "string"
+ 1246  git checkout -b "string2"
+ 1247  branch
+ 1248  git branch
+ 1249  git checkout master
+ 1250  git branch -D string2
+ 1251  git branch "string2"
+ 1252  git checkout string2
+ 1253  git checkout master 
+ 1254  git log
+ 1255  git checkout -b "third-branch"
+ 1256  git branch
+ 1257  git log
+ 1258  git checkout master
+ 1259  git log
+ 1260  ls
+ 1261  nano one-file.txt 
+ 1262  git commit -m "second commit"
+ 1263  git add .
+ 1264  git commit -m "second commit"
+ 1265  git log
+ 1266  git checkout second-branch 
+ 1267  git log
+ 1268  nano one-file.txt 
+ 1269  ls
+ 1270  git add .
+ 1271  git commit -m "second commit (but bad)"
+ 1272  git log
+ 1273  git checkout master 
+ 1274  git merge second-branch 
+ 1275  git mergetool
+ 1276  git mergetool --tool-help
+ 1277  git config merge.tool vimdiff
+ 1278  git mergetool
+ 1279  apt install vim
+ 1280  sudo apt install vim
+ 1281  git mergetool
+ 1282  git status
+ 1283  nano one-file.txt
+ 1284  git mergetool
+ 1285  git status
+ 1286  git merge --abort
+ 1287  git status
+ 1288  ls
+ 1289  git rm one-file_*
+ 1290  git status
+ 1291  git rm one-file_*.txt
+ 1292  find *.md +365 -delete
+ 1293  find ./*.txt +365 -delete
+ 1294  ls
+ 1295  ls -a
+ 1296  cd ..
+ 1297  ls
+ 1298  cd bad-repo/
+ 1299  man find
+ 1300  pip install flask-sqlalchemy flask flask-wtf wtforms flask-migrate flask-login wekzeug
+ 1301  pip install werkzeug
+ 1302  python3 run.py
+ 1303  pip install flask_migrate
+ 1304  python3 run.py
+ 1305  ls
+ 1306  cd Documents/
+ 1307  ls
+ 1308  mkdir CMPE131
+ 1309  cd CMPE1
+ 1310  cd CMPE131/
+ 1311  ls ..
+ 1312  git clone https://github.com/isabel8190/cmpe131-team-5.git
+ 1313  code cmpe131-team-5/
+ 1314  cd ..
+ 1315  ls
+ 1316  cd var/
+ 1317  ls
+ 1318  cd crash/
+ 1319  ls
+ 1320  sudo rm 
+ 1321  sudo rm _usr_bin_ibus-daemon.125.crash 
+ 1322  ls
+ 1323  cd ~
+ 1324  ls
+ 1325  cd Documents/
+ 1326  pwd
+ 1327  cd ~
+ 1328  cd Desktop/
+ 1329  ls -latr
+ 1330  mkdir cs149
+ 1331  cd cs149/
+ 1332  git init
+ 1333  git remote add origin https://github.com/yourlogin/cs149.git
+ 1334  mkdir WS1
+ 1335  cd WS1
+ 1336  git status
+ 1337  git add .
+ 1338  ls
+ 1339  git status
+ 1340  wget -O out.pdf https://tinyurl.com/yy94jltt
+ 1341  ls -latr
+ 1342  out.pdf
+ 1343  this is a graduation path for a cs major... I am a se major.
+ 1344  history > cmds.log
+ 1345  git status
+ 1346  git add cmds.log
+ 1347  git status
+ 1348  git commit -m "First commit"
+ 1349  git branch
+ 1350  git push -u origin main
+ 1351  git push -u origin master
+ 1352  code .
+ 1353  code ..
+ 1354  git log
+ 1355  git branch -M main
+ 1356  git branch
+ 1357  git remote
+ 1358  git remote -rm out.pdf
+ 1359  git remote -rm origin
+ 1360  git remote rm origin
+ 1361  git remote
+ 1362  git remote add origin https://github.com/starphys/cs149.git
+ 1363  gcc helloworld.c -o helloworld
+ 1364  ls
+ 1365  ./helloworld 
+ 1366  gcc -Wall helloworld.c -o helloworld
+ 1367  ./helloworld 
+ 1368  gcc -Wall noparking.c -o noparking
+ 1369  ./noparking 
+ 1370  gcc -Wall noparking.c -o noparking
+ 1371  ./noparking 
+ 1372  gcc -Wall rightarrow.c -o rightarrow
+ 1373  ./rightarrow 
+ 1374  ./rightarrow 0
+ 1375  ./rightarrow 0 1
+ 1376  ./rightarrow 0 1 2
+ 1377  gcc -Wall rightarrow.c -o rightarrow
+ 1378  ./rightarrow 0 1 2
+ 1379  ./rightarrow 0 1
+ 1380  gcc -Wall rightarrow.c -o rightarrow
+ 1381  ./rightarrow 0 1
+ 1382  gcc -Wall rightarrow.c -o rightarrow
+ 1383  ./rightarrow 0 1
+ 1384  ./rightarrow a b
+ 1385  ./rightarrow ./rightarrow b
+ 1386  gcc -Wall rightarrow.c -o rightarrow
+ 1387  ./rightarrow 0 1
+ 1388  gcc -Wall 1_18_helloworld2.c -o helloworld2
+ 1389  ls
+ 1390  gcc -Wall 1_18_helloworld2.c -o helloworld2
+ 1391  ./helloworld2
+ 1392  gcc -Wall 1_18_helloworld2.c -o helloworld2
+ 1393  ./helloworld2
+ 1394  gcc -Wall 1_19_inputoutput.c -o inputoutput
+ 1395  ./inputoutput 
+ 1396  gcc -Wall 1_19_inputoutput.c -o inputoutput
+ 1397  ./inputoutput 
+ 1398  gcc -Wall 1_20_asciiart.c -o asciiart
+ 1399  ./asciiart 
+ 1400  cd ../..
+ 1401  ls
+ 1402  git clone https://github.com/starphys/cs149.git cs149_evanastle
+ 1403  ls cs149_evanastle/
+ 1404  ls cs149_evanastle/WS1/
+ 1405  ls
+ 1406  rm -rf cs149_evanastle/
+ 1407  date
+ 1408  pwd
+ 1409  cd ~
+ 1410  cd Desktop/
+ 1411  ls -latr
+ 1412  cd cs149/
+ 1413  mkdir WS2
+ 1414  cd WS2/
+ 1415  ls -latr
+ 1416  echo $?
+ 1417  man ps
+ 1418  ps aux
+ 1419  top
+ 1420  history > worksheet2.log
+ 1421  head worksheet2.log 
+ 1422  tail worksheet2.log 
+ 1423  cat worksheet2.log 
+ 1424  code .
+ 1425  ls ../WS1/
+ 1426  gcc -Wall 2_22_dividebyx.c -o 2_22_dividebyx
+ 1427  ./2_22_dividebyx 
+ 1428  gcc -Wall 2_22_dividebyx.c -o 2_22_dividebyx
+ 1429  ./2_22_dividebyx 
+ 1430  gcc -Wall 2_22_dividebyx.c -o 2_22_dividebyx
+ 1431  ./2_22_dividebyx 
+ 1432  gcc -Wall 2_22_dividebyx.c -o 2_22_dividebyx
+ 1433  ./2_22_dividebyx 
+ 1434  gcc -Wall 2_29_mathfunctions.c -o a
+ 1435  man abs
+ 1436  gcc -Wall 2_29_mathfunctions.c -o a
+ 1437  gcc -Wall 2_29_mathfunctions.c -o a -lm
+ 1438  ./a
+ 1439  cd ../..
+ 1440  ls
+ 1441  git clone https://github.com/starphys/cs149.git cs149_evanastle
+ 1442  ls
+ 1443  cd cs149_evanastle/
+ 1444  ls
+ 1445  cd WS2
+ 1446  ls
+ 1447  cd ../..
+ 1448  ls
+ 1449  rm -rf cs149_evanastle/
+ 1450  gcc --version
+ 1451  g++ --version
+ 1452  gcc -version
+ 1453  --version
+ 1454  gcc --version
+ 1455  gcc --update
+ 1456  man gcc
+ 1457  cd Desktop/cs149/
+ 1458  mkdir A1
+ 1459  cd A1/
+ 1460  code .
+ 1461  code ..
+ 1462  cat ../WS1/1_17_rightarrow.c 
+ 1463  man fgets
+ 1464  man fclose
+ 1465  gcc -Wall countnames.c -o a
+ 1466  gcc -Wall countnames.c -o countnames
+ 1467  ./countnames names.txt 
+ 1468  gdb --args ./countnames names.txt 
+ 1469  gcc -Wall countnames.c -o countnames
+ 1470  gdb --args ./countnames names.txt 
+ 1471  gcc -Wall -g countnames.c -o countnames
+ 1472  gdb --args ./countnames names.txt 
+ 1473  ./countnames names.txt 
+ 1474  gcc -Wall -g countnames.c -o countnames
+ 1475  ./countnames names.txt 
+ 1476  ./countnames names.txt | sort
+ 1477  ./countnames
+ 1478  cd Desktop/cs149/A1/
+ 1479  ./countnames
+ 1480  gcc -Wall -g countnames.c -o countnames
+ 1481  ./countnames
+ 1482  ./countnames asd
+ 1483  ./countnames .txt
+ 1484  ./countnames .
+ 1485  ./countnames ..
+ 1486  ./countnames ../WS1/1_16_noparking.c 
+ 1487  ./countnames ../WS1/1_19_inputoutput.c 
+ 1488  ./countnames ../WS1/1_20_asciiart.c 
+ 1489  ./countnames ../WS1/1_17_rightarrow.c 
+ 1490  git log
+ 1491  cd Desktop/cs149/A1/
+ 1492  git log
+ 1493  cd Desktop/cs149/
+ 1494  ls
+ 1495  cd A1
+ 1496  ls
+ 1497  code countnames.c
+ 1498  gcc -Wall countnames.c -o countnames
+ 1499  ar/run/vmblock-fuse/blockdir/1OJ8Gi/names_long_redundant.txt names_long.txt
+ 1500  cp ~/Downloads/names_long_redundant.txt ./names_long_redundant.txt
+ 1501  ls
+ 1502  code names_long_redundant.txt 
+ 1503  ./countnames names_long_redundant.txt 
+ 1504  touch fake.txt
+ 1505  ./countnames fake.txt 
+ 1506  gcc -Wall -Werror countnames.c -o countnames
+ 1507  ./countnames fak
+ 1508  $?
+ 1509  $
+ 1510  ?
+ 1511  $?
+ 1512  cat $?
+ 1513  echo $?
+ 1514  ./countnames names_long_redundant.txt 
+ 1515  echo $?
+ 1516  cd ..
+ 1517  mkdir WS3
+ 1518  code WS3/
+ 1519  code WS2
+ 1520  wget  https://github.com/torvalds/linux/archive/master.zip
+ 1521  unzip master.zip 
+ 1522  cd linux-master/
+ 1523  pwd
+ 1524  alias l='ls -latr'
+ 1525  l
+ 1526  find . -name mem.c
+ 1527  find . -name mem.c | xargs head
+ 1528  find . -name mem.c | xargs grep 86
+ 1529  cd ..
+ 1530  rm -rf linux-master/
+ 1531  cd WS3/
+ 1532  history > worksheet3.log
+ 1533  head worksheet3.log 
+ 1534  tail worksheet3.log 
+ 1535  ls
+ 1536  cd Documents/
+ 1537  ls
+ 1538  mkdir CS159
+ 1539  cd CS159/
+ 1540  code .
+ 1541  gcc -Wall scratch.c -o a.out
+ 1542  ./a.out 
+ 1543  ./a.out > out.txt
+ 1544  echo out.txt 
+ 1545  cat out.txt 
+ 1546  gcc -Wall scratch.c -o a.out
+ 1547  ./a.out 
+ 1548  ./a.out > out.txt
+ 1549  cat out.txt 
+ 1550  gcc -Wall scratch.c -o a.out
+ 1551  ./a.out 
+ 1552  gcc -Wall scratch.c -o a.out
+ 1553  ./a.out > output.txt
+ 1554  ./a.out > output2.txt
+ 1555  ./a.out > output3.txt
+ 1556  gcc -Wall scratch.c -o a.out
+ 1557  ./a.out > output.txt
+ 1558  ./a.out > output2.txt
+ 1559  ./a.out > output3.txt
+ 1560  cd Documents/CS159/
+ 1561  code .
+ 1562  ls
+ 1563  gcc -Wall -Werror scratch.c -o a.out 
+ 1564  ./a.out 
+ 1565  ./a.out > output1.txt
+ 1566  ./a.out > output2.txt
+ 1567  ./a.out > output3.txt
+ 1568  ./a.out > output.txt
+ 1569  ./a.out > output4.txt
+ 1570  ./a.out > output5.txt
+ 1571  ./a.out > output6.txt
+ 1572  ./a.out
+ 1573  cd ../..
+ 1574  cd Desktop/cs149/
+ 1575  ls
+ 1576  mkdir WS4
+ 1577  code WS4
+ 1578  wget http://www.apuebook.com/src.3e.tar.gz
+ 1579  ls
+ 1580  rm -rf src.3e.tar.gz 
+ 1581  cd WS4
+ 1582  ls
+ 1583  rm -rf src.3e.tar.gz 
+ 1584  wget http://www.apuebook.com/src.3e.tar.gz
+ 1585  gunzip src.3e.tar.gz 
+ 1586  tar xvf src.3e.tar 
+ 1587  cd apue.3e/
+ 1588  cd proc/
+ 1589  make all
+ 1590  ./fork1
+ 1591  ./fork2
+ 1592  pwd
+ 1593  pstree
+ 1594  ps -a -f -x
+ 1595  ps -a -f -x | more
+ 1596  top
+ 1597  man kill
+ 1598  echo $?
+ 1599  echo $$
+ 1600  history > worksheet4.log
+ 1601  tail worksheet4.log 
+ 1602  ls
+ 1603  cd ../..
+ 1604  ls
+ 1605  rm src.3e.tar 
+ 1606  rm -rf apue.3e/
+ 1607  ls
+ 1608  history > worksheet4.log
+ 1609  tail worksheet4.log 
+ 1610  cd ..
+ 1611  code WS3
+ 1612  cd Desktop/cs149/
+ 1613  code .
+ 1614  cd Documents/
+ 1615  ls
+ 1616  cd CS159/
+ 1617  ls
+ 1618  code .
+ 1619  gcc -Wall scratch.c -o a.out
+ 1620  ./a.out 
+ 1621  gcc -Wall scratch.c -o a.out
+ 1622  ./a.out 
+ 1623  gcc -Wall scratch.c -o a.out
+ 1624  ./a.out 
+ 1625  gcc -Wall scratch.c -o a.out
+ 1626  ./a.out 
+ 1627  gcc -Wall scratch.c -o a.out
+ 1628  ./a.out 
+ 1629  gcc -Wall scratch.c -o a.out
+ 1630  ./a.out > output.txt
+ 1631  ./a.out > output1.txt
+ 1632  ./a.out > output2.txt
+ 1633  gcc -Wall scratch.c -o a.out
+ 1634  ./a.out 
+ 1635  ./a.out > output.txt
+ 1636  ./a.out > output1.txt
+ 1637  ./a.out > output2.txt
+ 1638  gcc -Wall first_fork.c -o a.out
+ 1639  ./a.out 
+ 1640  gcc -Wall first_fork.c -o a.out
+ 1641  ./a.out 
+ 1642  ./a.out > out.txt
+ 1643  ./a.out > out1.txt
+ 1644  ./a.out > out2.txt
+ 1645  gcc -Wall fork_tree.c -o a.out
+ 1646  ./a.out 
+ 1647  gcc -Wall fork_tree.c -o a.out
+ 1648  ./a.out 
+ 1649  gcc -Wall fork_tree.c -o a.out
+ 1650  ./a.out 
+ 1651  ./a.out > out.txt
+ 1652  gcc -Wall fork_tree.c -o a.out
+ 1653  ./a.out 
+ 1654  ./a.out > out.txt
+ 1655  gcc -Wall fork_tree.c -o a.out
+ 1656  ./a.out > out.txt
+ 1657  ls
+ 1658  git status
+ 1659  git log
+ 1660  ls
+ 1661  code A2/
+ 1662  cd A2/
+ 1663  gcc countnames.c
+ 1664  man fork
+ 1665  gcc countnames.c
+ 1666  ls
+ 1667  gcc -Werror -Wall countnames.c
+ 1668  ./a.out 
+ 1669  ./a.out names_long_redundant.txt names.txt 
+ 1670  gcc -Werror -Wall countnames.c
+ 1671  ./a.out names.txt names.txt names.txt 
+ 1672  gcc -Werror -Wall countnames_parallel.c 
+ 1673  ./a.out names.txt empty.txt 
+ 1674  gcc -Werror -Wall -g countnames_parallel.c 
+ 1675  gdb --args ./a.out names2.txt empty.txt 
+ 1676  ./a.out names.txt empty.txt 
+ 1677  ./a.out names2.txt empty.txt 
+ 1678  gcc -Werror -Wall -g countnames_parallel.c 
+ 1679  ./a.out names2.txt empty.txt 
+ 1680  gcc -Werror -Wall -g countnames_parallel.c 
+ 1681  man wait
+ 1682  gcc -Werror -Wall -g countnames_parallel.c 
+ 1683  ./a.out names2.txt empty.txt 
+ 1684  gcc -Werror -Wall -g countnames_parallel.c 
+ 1685  ./a.out names2.txt empty.txt 
+ 1686  gcc -Werror -Wall -g countnames_parallel.c 
+ 1687  ./a.out names2.txt empty.txt 
+ 1688  gcc -Werror -Wall -g countnames_parallel.c 
+ 1689  ./a.out names2.txt empty.txt 
+ 1690  gcc -Werror -Wall -g countnames_parallel.c 
+ 1691  ./a.out names2.txt empty.txt 
+ 1692  gcc -Werror -Wall -g countnames_parallel.c 
+ 1693  ./a.out names2.txt empty.txt 
+ 1694  gcc -Werror -Wall -g countnames_parallel.c 
+ 1695  ./a.out names2.txt empty.txt 
+ 1696  gcc -Werror -Wall -g countnames_parallel.c 
+ 1697  ./a.out names2.txt empty.txt 
+ 1698  ./a.out names2.txt
+ 1699  ./a.out names2.txt names2.txt 
+ 1700  gcc -Werror -Wall -g countnames_parallel.c 
+ 1701  ./a.out names2.txt names2.txt 
+ 1702  gcc -Werror -Wall -g countnames_parallel.c 
+ 1703  ./a.out names2.txt names2.txt 
+ 1704  gcc -Werror -Wall -g countnames_parallel.c 
+ 1705  ./a.out names2.txt names2.txt 
+ 1706  ./a.out names2.txt empty.txt 
+ 1707  ./a.out empty.txt 
+ 1708  gcc -Werror -Wall -g countnames_parallel.c 
+ 1709  ./a.out empty.txt 
+ 1710  ./a.out names2.txt empty.txt 
+ 1711  ./a.out names2.txt
+ 1712  gcc -Werror -Wall -g countnames_parallel.c 
+ 1713  ./a.out names2.txt
+ 1714  gcc -Werror -Wall -g countnames_parallel.c 
+ 1715  ./a.out names2.txt
+ 1716  ./a.out names2.txt names2.txt 
+ 1717  ./a.out names2.txt names2.txt names2.txt 
+ 1718  ./a.out names2.txt names2.txt names2.txt names1.txt 
+ 1719  ./a.out names2.txt names2.txt names2.txt names1.txt names.txt empty.txt 
+ 1720  gcc -Werror -Wall -g countnames_parallel.c 
+ 1721  ./a.out names2.txt
+ 1722  gcc -Werror -Wall -g countnames_parallel.c 
+ 1723  ./a.out names2.txt
+ 1724  ./a.out names2.txt names2.txt 
+ 1725  ./a.out names2.txt names2.txt names2.txt names1.txt names.txt empty.txt 
+ 1726  ./a.out names2.txt names2.txt names2.txt names1.txt names.txt
+ 1727  ./a.out names2.txt names2.txt names2.txt names1.txt names.txt 2> ./dump.txt
+ 1728  ls
+ 1729  rm dump.txt 
+ 1730  ls
+ 1731  ./a.out names_long2.txt names_long2.txt names_long2.txt 
+ 1732  gcc -Werror -Wall -g countnames_parallel.c 
+ 1733  ./a.out names2.txt names2.txt names2.txt names1.txt names.txt empty.txt 
+ 1734  gcc -Werror -Wall -g countnames_parallel.c 
+ 1735  ./a.out names2.txt names2.txt names2.txt names1.txt names.txt empty.txt 
+ 1736  ./a.out names1.txt names2.txt 
+ 1737  ./a.out names1.txt names1.txt 
+ 1738  ./a.out names1.txt names2.txt 
+ 1739  ./a.out names1.txt names12.txt 
+ 1740  ./a.out names1.txt names2.txt empty.txt 
+ 1741  ./a.out names1.txt names2.txt empty.txt empty.txt 
+ 1742  ./a.out names1.txt names2.txt
+ 1743  gcc -Werror -Wall ws5.c
+ 1744  ./a.out 
+ 1745  gcc -Werror -Wall ws5.c
+ 1746  ./a.out 
+ 1747  gcc -Werror -Wall ws5.c
+ 1748  ./a.out 
+ 1749  gcc -Werror -Wall ws5.c
+ 1750  ./a.out 
+ 1751  gcc -Werror -Wall ws5.c
+ 1752  ./a.out 
+ 1753  gcc -Werror -Wall ws5.c
+ 1754  ./a.out 
+ 1755  ls
+ 1756  cd Documents/
+ 1757  ls
+ 1758  cd CS159/
+ 1759  ls
+ 1760  code .
+ 1761  gcc -Wall -Werr fork_and_sleep.c 
+ 1762  gcc -Wall -Werror fork_and_sleep.c 
+ 1763  ./a.out 
+ 1764  gcc -Wall -Werror fork_and_sleep.c 
+ 1765  ./a.out 
+ 1766  gcc -Wall -Werror scratch.c 
+ 1767  ./a.out 
+ 1768  ./a.out > output.txt
+ 1769  gcc -Wall -Werror scratch.c 
+ 1770  ./a.out 
+ 1771  ./a.out > output.txt
+ 1772  cd ~/Desktop/cs149/
+ 1773  ls
+ 1774  code .
+ 1775  ls
+ 1776  git status
+ 1777  git log
+ 1778  ls
+ 1779  mkdir WS6
+ 1780  code .
+ 1781  ls
+ 1782  cd WS6
+ 1783  wget http://www.apuebook.com/src.3e.tar.gz
+ 1784  gunzip src.3e.tar.gz
+ 1785  tar xvf src.3e.tar
+ 1786  cd apue.3e
+ 1787  cd proc
+ 1788  make all
+ 1789  ./fork1
+ 1790  ./fork2
+ 1791  ls
+ 1792  ls awkexample 
+ 1793  ls awkexample/
+ 1794  cd ..
+ 1795  ls
+ 1796  cd proc/
+ 1797  ls
+ 1798  code test1.c 
+ 1799  make all
+ 1800  ls
+ 1801  ./test1 
+ 1802  cp test1.c ../../test1.c
+ 1803  cd ../..
+ 1804  ls
+ 1805  rm -rf apue.3e/
+ 1806  rm -rf src.3e.tar 
+ 1807  ls
+ 1808  make all
+ 1809  ls
+ 1810  code .
+ 1811  man execlp
+ 1812  cd A3/
+ 1813  gcc -Wall -Werror proc_manager.c -o proc_manager
+ 1814  ./proc_manager < inputs.txt 
+ 1815  ./proc_manager < ls
+ 1816  ./proc_manager
+ 1817  cd Desktop/cs149/A3/
+ 1818  ./proc_manager 
+ 1819  gcc -Wall -Werror proc_manager.c -o proc_manager
+ 1820  ./proc_manager
+ 1821  gcc -Wall -Werror proc_manager.c -o proc_manager
+ 1822  ./proc_manager
+ 1823  gcc -Wall -Werror proc_manager.c -o proc_manager
+ 1824  ./proc_manager
+ 1825  gcc -Wall -Werror proc_ -g manager.c -o proc_manage
+ 1826  gcc -Wall -Werror-g  proc_manager.c -o proc_manager
+ 1827  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1828  gdb ./proc_manager 
+ 1829  ./proc_manager
+ 1830  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1831  man exec
+ 1832  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1833  ./proc_manager
+ 1834  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1835  ./proc_manager
+ 1836  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1837  ./proc_manager
+ 1838  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1839  ./proc_manager
+ 1840  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1841  ./proc_manager
+ 1842  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1843  ./proc_manager
+ 1844  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1845  ./proc_manager
+ 1846  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1847  ./proc_manager
+ 1848  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1849  ./proc_manager
+ 1850  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1851  ./proc_manager
+ 1852  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1853  ./proc_manager
+ 1854  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1855  ./proc_manager
+ 1856  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1857  ./proc_manager
+ 1858  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1859  ./proc_manager
+ 1860  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1861  ./proc_manager
+ 1862  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1863  ./proc_manager
+ 1864  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1865  ./proc_manager
+ 1866  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1867  ./proc_manager
+ 1868  ./proc_manager < inputs.txt 
+ 1869  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1870  ./proc_manager < inputs.txt 
+ 1871  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1872  ./proc_manager < inputs.txt 
+ 1873  killall sleep
+ 1874  pkill sleep
+ 1875  killall sleep
+ 1876  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1877  ./proc_manager < inputs.txt 
+ 1878  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1879  ./proc_manager < inputs.txt 
+ 1880  man open
+ 1881  man sprintf
+ 1882  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1883  ./proc_manager < inputs.txt 
+ 1884  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1885  ./proc_manager < inputs.txt 
+ 1886  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1887  ./proc_manager < inputs.txt 
+ 1888  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1889  ./proc_manager < inputs.txt 
+ 1890  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1891  ./proc_manager < inputs.txt 
+ 1892  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1893  ./proc_manager < inputs.txt 
+ 1894  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1895  ./proc_manager < inputs.txt 
+ 1896  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1897  ./proc_manager < inputs.txt 
+ 1898  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1899  ./proc_manager < inputs.txt 
+ 1900  gcc -Wall -Werror -g  proc_manager.c -o proc_manager
+ 1901  ./proc_manager < inputs.txt 
+ 1902  killall sleep
+ 1903  make all
+ 1904  ./mycat 
+ 1905  make all
+ 1906  ./mycat 
+ 1907  make all
+ 1908  ./mycat 
+ 1909  make all
+ 1910  ./mycat 
+ 1911  make all
+ 1912  ./mycat 
+ 1913  make all
+ 1914  ./mycat 
+ 1915  make all
+ 1916  ./mycat 
+ 1917  make all
+ 1918  ./mycat 
+ 1919  make all
+ 1920  ./mycat 
+ 1921  ./mycat 2> out.txt
+ 1922  ls
+ 1923  cd A3/
+ 1924  ./proc_manager 
+ 1925  a
+ 1926  ./proc_manager 
+ 1927  ls
+ 1928  ./proc_manager 
+ 1929  asd
+ 1930  ./proc_manager 
+ 1931  code .
+ 1932  cd ..
+ 1933  ls
+ 1934  mkdir WS7
+ 1935  cd WS7
+ 1936  code .
+ 1937  gcc -o lseek_example lseek_example.c
+ 1938  ./lseek_example 
+ 1939  gcc -o lseek_example lseek_example.c
+ 1940  ./lseek_example 
+ 1941  gcc -o lseek_example lseek_example.c
+ 1942  ./lseek_example 
+ 1943  gcc -o lseek_example lseek_example.c
+ 1944  ./lseek_example 
+ 1945  gcc -o lseek_example lseek_example.c
+ 1946  ./lseek_example 
+ 1947  gcc -o lseek_example lseek_example.c
+ 1948  ./lseek_example 
+ 1949  cs ~/Desktop/
+ 1950  cd ~/Desktop/
+ 1951  mkdir ws7
+ 1952  cd ws7/
+ 1953  ls | wc
+ 1954  ls | sort
+ 1955  ls | sort | wc
+ 1956  ls -latr /bin/ > a.out
+ 1957  cat a.out | more
+ 1958  strace ls
+ 1959  du -sh .
+ 1960  df -i
+ 1961  history > worksheet7.log
+ 1962  cp worksheet7.log ../WS7/worksheet7.log
+ 1963  ls
+ 1964  cd ..
+ 1965  ls
+ 1966  cd ws7/
+ 1967  ls
+ 1968  cp worksheet7.log ../cs149/WS7/worksheet7.log
+ 1969  ls
+ 1970  cd ..
+ 1971  cd cs149/
+ 1972  cs WS7/
+ 1973  cd WS7/
+ 1974  ls
+ 1975  cd ..
+ 1976  ls
+ 1977  rm -rf ws7/
+ 1978  cd cs149/
+ 1979  ls
+ 1980  cd WS7/
+ 1981  ls
+ 1982  cd ..
+ 1983  mkdir WS8
+ 1984  cd WS8
+ 1985  code .
+ 1986  wget http://www.apuebook.com/src.3e.tar.gz
+ 1987  gunzip src.tar.gz
+ 1988  ls
+ 1989  gunzip src.3e.tar.gz 
+ 1990  tar xvf src.3e.tar 
+ 1991  cd apue.3e/proc/
+ 1992  make all
+ 1993  cd ../fileio/
+ 1994  ls
+ 1995  ./mycat
+ 1996  ./mycat 2> out.txt
+ 1997  ls
+ 1998  cat out.txt 
+ 1999  nano out.txt 
+ 2000  make all
+ 2001  ./sigusr &
+ 2002  kill -SIGUSR1 22388
+ 2003  kill -SIGUSR2 22388
+ 2004  kill -SIGCONT 22388
+ 2005  kill -9 22388
+ 2006  history > ../../worksheet9.log
