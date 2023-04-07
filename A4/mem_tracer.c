@@ -183,10 +183,18 @@ void FREE(void* p,char* file,int line)
 #define malloc(a) MALLOC(a,__FILE__,__LINE__)
 #define free(a) FREE(a,__FILE__,__LINE__)
 
+
+/**
+ * Main does most of the work to store any number of commands in memory (array and list) without memory leaks.
+ * It delegates several list operations to list functions.
+ * Assumption: 
+ * Input parameters: 
+ * Returns: 0 for success, 1 for error
+**/
 int main( int argc, char *argv[] ) {
     int fd_out = open("memtrace.out", O_RDWR | O_CREAT | O_APPEND, 0777);
     if(dup2(fd_out, 1) != 1) {
-            fprintf(stdout, "dup2 didn't work!");
+        fprintf(stdout, "dup2 didn't work!");
     }
 
     PUSH_TRACE("main");
@@ -203,7 +211,7 @@ int main( int argc, char *argv[] ) {
     node* listHead = NULL, *listTail = NULL;
 
 
-    // Get commands from stdin
+    // Get commands from stdin, store in list and array
     while(1) {
         // Expand commands array as needed
         if(count >= size) {
@@ -240,6 +248,7 @@ int main( int argc, char *argv[] ) {
 
     freeList(listHead);
 
+    // Free all commands in the array (also frees the text component of the list)
     for(int i = 0; i < count; i++) {
         free(commands[i]);
     }
@@ -250,6 +259,14 @@ int main( int argc, char *argv[] ) {
     return 0;
 }
 
+
+/**
+ * Inserts a node at the tail of the given list, or as the head of an empty list.
+ * Assumption: new is a valid node, head and tail are valid node-pointer pointers
+ * Input parameters: head and tail, pointers to the head and tail pointers of the list
+ *                   new, the node to be inserted
+ * Returns: nothing
+**/
 void insertNode(node** head, node** tail, node* new) {
     if(!*head) {
         *head = new;
@@ -262,7 +279,12 @@ void insertNode(node** head, node** tail, node* new) {
     }
 }
 
-// Recursively print nodes to standard out. 
+/**
+ * Recursively print nodes to standard out. 
+ * Assumption: head is a valid pointer to a list
+ * Input parameters: head, the head pointer of a list
+ * Returns: nothing
+**/
 void printNodes(node* head) {
     if(!head->string) {
         fprintf(stderr, "String not assigned to node %d\n", head->lineNum);
@@ -275,7 +297,12 @@ void printNodes(node* head) {
     }
 }
 
-
+/**
+ * Recursively frees nodes from a linked list. 
+ * Assumption: head is a valid pointer to a list
+ * Input parameters: head, the head pointer of a list
+ * Returns: nothing
+**/
 void freeList(node* head) {
     PUSH_TRACE("freeList");
     if(head->next) {
