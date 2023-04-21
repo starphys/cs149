@@ -33,6 +33,12 @@ struct nlist {
 #define HASHSIZE 101
 static struct nlist *hashtab[HASHSIZE]; /* pointer table */
 
+/**
+ * @brief Hash function for getting index in hashtab from pid
+ * 
+ * @param pid 
+ * @return unsigned 
+ */
 unsigned hash(int pid)
 {
     unsigned hashval = pid;
@@ -233,6 +239,14 @@ int main( int argc, char *argv[] ) {
     return 0;
 }
 
+/**
+ * @brief Executes the command in commands[index] by calling execvp.
+ * Commands is unchanged afterwards.
+ * 
+ * @param commands 
+ * @param index 
+ * @return int 
+ */
 int executeCommand(char **commands, int index) {
     char fileName[MAX_LENGTH];
 
