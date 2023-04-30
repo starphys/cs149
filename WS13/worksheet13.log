@@ -1,0 +1,52 @@
+ 2000  mkdir WS13
+ 2001  cd WS13
+ 2002  wget http://www.apuebook.com/src.3e.tar.gz
+ 2003  gunzip src.3e.tar.gz
+ 2004  tar xvf src.3e.tar
+ 2005  ls
+ 2006  rsync -arv apue.3e/ filedir1/
+ 2007  cp -r apue.3e/ filedir2/
+ 2008  ls
+ 2009  ls -latr filedir1/
+ 2010  ls -latr filedir2/
+ 2011  code worksheet13.log
+ 2012  ls filedir1/ | sort >> 1.txt
+ 2013  cat 1.txt 
+ 2014  ls filedir2/ | sort >> 2.txt
+ 2015  diff 1.txt 2.txt 
+ 2016  ls -latr filedir2/ | sort >> 2.txt
+ 2017  ls -latr filedir1/ | sort >> 1.txt
+ 2018  diff 1.txt 2.txt 
+ 2019  code .
+ 2020  diff 1.txt 2.txt 
+ 2021  code .
+ 2022  cd filedir1
+ 2023  help du
+ 2024  du --help
+ 2025  man du
+ 2026  ls
+ 2027  du threads
+ 2028  man du
+ 2029  du -b -c .
+ 2030  ls
+ 2031  rmdir standards/
+ 2032  man rmdir
+ 2033  rm -rf standards/
+ 2034  ls
+ 2035  man df
+ 2036  man du
+ 2037  man df
+ 2038  df -a .
+ 2039  df .
+ 2040  df
+ 2041  man rsync
+ 2042  ls
+ 2043  rsync -avz stdio/ stdio2/
+ 2044  ls
+ 2045  man stat
+ 2046  stat -f -c=tree
+ 2047  stat -f -c=tree .
+ 2048  stat -f .
+ 2049  cd ..
+ 2050  history > worksheet13.log 
+I couldn't tell the difference between filedir1 and filedir2. Controlling for timestamps, diff shows no difference in the output from ls -latr.
