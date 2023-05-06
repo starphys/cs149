@@ -296,6 +296,7 @@ void* thread_runner(void* f)
         // Check blank lines
         if(input[0] == '\n' || (input[0] == ' ' && (input[1] == '\n' || input[1] == '\0'))) {
             fprintf(stderr, "Warning - file %s line %d is empty.\n", filename, i);
+            free(input);
             continue;
         }
 
